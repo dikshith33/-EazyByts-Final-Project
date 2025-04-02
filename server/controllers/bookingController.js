@@ -6,11 +6,9 @@ const { Booking, User, Event } = db;
 export const createBooking = async (req, res) => {
   const { eventId } = req.body;
   const userId = req.user.id;
-
   try {
     const event = await Event.findByPk(eventId);
     if (!event) return res.status(404).json({ error: 'Event not found' });
-
     const booking = await Booking.create({ userId, eventId });
     res.status(201).json({ message: 'Booking created successfully', booking });
   } catch (error) {
