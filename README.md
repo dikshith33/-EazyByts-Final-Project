@@ -1,13 +1,6 @@
 # 🎉 Event Management Platform
 
 A full-stack web application that enables users to explore, register for, and manage events. Built with **React.js**, **Node.js**, **Express.js**, and **PostgreSQL**, this platform provides a seamless event booking and management experience for attendees and organizers alike.
-
-## 🔗 GitHub Repository
-
-[Insert Your GitHub Link Here]
-
----
-
 ## 🚀 Features
 
 - 🔐 **User Authentication**  
